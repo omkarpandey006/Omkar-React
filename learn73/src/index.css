@@ -1,0 +1,8 @@
+/* @import "tailwindcss"; */
+
+
+button{
+    padding: 5px;
+    border-radius: 5px;
+    gap: 5px;
+}

@@ -1,0 +1,45 @@
+/* @import "tailwindcss"; */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#111;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+body{
+    /* background-color: #111; */
+}
+.Navbar{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(202, 200, 200);
+}
+.Navbar h3{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 5px 30px; 
+}
+.About-section{
+    display: flex;
+    gap: 50px;
+    margin:5px 10px;
+}
+button{
+    background-color:#154d96 ;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 20px;
+    margin: 5px;
+    color: white;
+    
+}
+.rightarrow{
+    color: white;
+}
